@@ -6,7 +6,7 @@ function App() {
       fontFamily: 'sans-serif', textAlign: 'center',
       padding: '2rem'
     }}>
-      <h1>Pipeline CI/CD - SEDUC-SP</h1>
+      <h1>Pipeline Quebrado</h1>
       <p>Aplicação publicada automaticamente pelo GitHub Actions.</p>
       <button onClick={() => setContador(contador + 1)}>
         Cliques: {contador}
