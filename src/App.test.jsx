@@ -5,7 +5,7 @@ import App from './App'
 describe('Componente App', () => {
     it('exibe o título principal da aplicação', () => {
         render(<App />)
-        expect(screen.getByText(/Pipeline CI\/CD - SEDUC-SP /i)).toBeInTheDocument()
+        expect(screen.getByText(/Pipeline CI\/CD - SEDUC-SP/i)).toBeInTheDocument()
     })
     it('incrementa o contador ao clicar no botão', async () => {
         render(<App />)
